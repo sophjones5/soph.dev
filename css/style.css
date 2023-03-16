@@ -221,7 +221,7 @@ h1.cursor::after {
 @media only screen and (max-device-width: 480px){
 	#home___mainbox{
 		background-color: var(--white);
-		height:80%;
+		height:75%;
 		width:95%;
 		margin-right: auto;
 		margin-left: auto;
@@ -233,14 +233,26 @@ h1.cursor::after {
 		margin-bottom: auto;
 		box-shadow: 20px 20px 10px #0A3B76;
 	}
+	
+	.home__content{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		margin-left: 1vh;
+		margin-right:1vh;
+		margin-top: auto;
+		margin-bottom: auto;
+		height:80%;
+		overflow-y: scroll; 
+	}
 
 	.output > h1{
-		font-size: 1.25vh;
+		font-size: 1vh;
 	}
 
 	.home___mainbox-text{
-		padding-top: 50px;
-		font-size: 1vh;
+		padding-top: 40px;
+		font-size: 0.75vh;
 	}
 
 	#home___namebar{
@@ -255,8 +267,8 @@ h1.cursor::after {
 	}
 
 	#home___image{
-		height:25vh;
-		width:25vh;
+		height:20vh;
+		width:20vh;
 		object-position: bottom;
 	}
 }
